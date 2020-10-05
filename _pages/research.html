@@ -1,0 +1,24 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+T. Liu, N. D. Truong, A. Nikpour, L. Zhou, and O. Kavehei, &quot;Epileptic Seizure Classification With Symmetric and Hybrid Bilinear Models &quot;, <i>IEEE Journal of Biomedical and Health Informatics</i>, 2020
+<br>
+<a href="url">Download paper here</a>
+<br><br>
+J. Niu, D. Liu, R. Liu, andT. Liu, &quot;The Impact of the New Cooperative Medical Scheme in Sangzhi County, Hunan Province&quot;, <i>Chinese Journal of Population Resources and Environment</i>>, vol. 11, no. 2, pp. 174–179, 2013
+<br>
+<a href="url">Download paper here</a>
+<br><br>
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+<br>
+{% for post in site.research %}
+  {% include archive-single.html %}
+{% endfor %}
+
