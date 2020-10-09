@@ -46,7 +46,7 @@ The spiking system bypasses the need for a power-intensive ADC and naturally int
 ## System Architecture
 
 <p align="center">
-  <img src="/images/neuromorphic-eeg-circuit-schematics.jpg" alt="Circuit-level Schematics"/>
+  <img src="/images/neuromorphic-eeg-circuit-schematics.png" alt="Circuit-level Schematics"/>
   <figcaption>Fig.4 - Circuit-level Schematics.</figcaption>
 </p>
 
@@ -72,7 +72,7 @@ The spike train is then decoded by on-chip SNN to predict/detect seizure onset.
 
 ## My Contributions
 * <div style="text-align: justify">Performed literature review on neuro-scientific principles to inform design of neuromorphic circuit</div>
-* <div style="text-align: justify">Designed the circuit prototype [incl. amplification, filtering, spiking circuit], first in SPICE using TINA, and then laid out a PCB test circuit</div>
+* <div style="text-align: justify">Designed the circuit prototype [incl. amplification, filtering, spiking circuit], first in SPICE using TINA, and then laid out a PCB test circuit, achieving estimated power consumption of 1mW</div>
 * <div style="text-align: justify">Created software test bench to verify the spike generation circuit, including signal reconstruction, linearity of circuit, signal-to-noise error ratio</div>
 * <div style="text-align: justify">Generated spiking dataset from raw EEG recordings of epileptic seizures for simulated training of on-chip spiking neural networks</div>
 
