@@ -46,7 +46,7 @@ The spiking system bypasses the need for a power-intensive ADC and naturally int
 ## System Architecture
 
 <p align="center">
-  <img src="/images/neuromorphic-eeg-circuit-schematics.jpg" alt="Circuit-level Schematics"/>
+  <img src="/images/neuromorphic-eeg-circuit-schematics.JPG" alt="Circuit-level Schematics"/>
   <figcaption>Fig.4 - Circuit-level Schematics.</figcaption>
 </p>
 
