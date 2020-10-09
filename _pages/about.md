@@ -16,7 +16,7 @@ Welcome to my first website and my personal landing page! On this site, you can 
 Presently, I am a student at the University of Cambridge, reading machine learning and machine intelligence! I have worn many hats, from software engineer to management consultant to biomedical research scientist. 
 </div>
 
-> Throughout my experiences, I have always been driven by the desire to solve **meaningful challenges** and affect **positive impact**.
+> Throughout my experiences, I have always been driven by the desire to solve **meaningful challenges** and effecting **positive impacts**.
 
 <div style="text-align: justify">
 How I envision myself achieving that goal, currently, is through engineering biomedical devices that can help individuals with neurological disorders overcome their disabilities. In line with this goal, I am pursuing research opportunities in the fields of <u>machine learning</u>, <u>brain-machine interfaces</u>, <u>neural prostheses</u> as well as <u>neuromorphic computing</u> paradigms. 
