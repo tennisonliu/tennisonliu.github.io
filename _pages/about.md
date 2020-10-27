@@ -19,7 +19,7 @@ Presently, I am a student at the University of Cambridge, reading machine learni
 > In all my experiences, I found myself most productive (and intellectually stimulated) when solving **meaningful challenges** that can **positively impact others.** 
 
 <div style="text-align: justify">
- How I envision myself achieving this goal, currently, is through by engineering biomedical devices that can help individuals with neurological disorders overcome their disabilities. In line with this goal, I am pursuing research opportunities in the fields of <u>machine learning</u>, <u>brain-machine interfaces</u>, <u>neural prostheses</u> as well as <u>neuromorphic computing</u> paradigms. 
+ How I envision myself achieving this goal, currently, is through engineering biomedical devices that can help individuals with neurological disorders overcome their disabilities. In line with this goal, I am pursuing research opportunities in the fields of <u>machine learning</u>, <u>brain-machine interfaces</u>, <u>neural prostheses</u> as well as <u>neuromorphic computing</u> paradigms. 
 </div>
 <br/>
 <div style="text-align: justify">

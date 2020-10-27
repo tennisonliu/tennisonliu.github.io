@@ -9,7 +9,7 @@ permalink: /research/project-1
 
 ## At a Glance
 <div style="text-align: justify">
-First neuromorphic EEG sensor, designed for purposes of long-term, ambulatory seizure monitoring. The neuromorphic design enables low power consumption and ultra-low bandwidth wireless transmission.
+World's first neuromorphic EEG sensor, designed for purposes of long-term, ambulatory seizure monitoring. The neuromorphic design enables low power consumption and ultra-low bandwidth wireless transmission.
 </div>
 
 ## Background & Problem Statement
