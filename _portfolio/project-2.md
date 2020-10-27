@@ -13,7 +13,7 @@ Novel hybrid bilinear deep neural network achieved state-of-the-art accuracy in 
 ## Background & Problem Statement
 <p align="center">
   <img src="/images/hybrid-epilepsy-epilepsy.png" alt="Epilepsy" width="300" style="vertical-align:middle"/>
-  <figcaption>Fig.1 - Epilepsy.</figcaption>
+  <figcaption>Fig.1 - Epilepsy manifested in EEG signals.</figcaption>
 </p>
 <div style="text-align: justify">
 Critical treatment and prognosis procedures for epilepsy start with and rely on the correct identification of epileptic seizure type. Video-EEG is the most common diagnostic tool that neurologists use to support a diagnosis. However, EEG based epilepsy diagnosis is often confounded by several factors: 

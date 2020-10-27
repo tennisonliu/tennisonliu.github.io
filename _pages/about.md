@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Tennison Liu 刘天励"
+title: "Tennison Liu"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,16 +10,16 @@ redirect_from:
 
 Hello! 你好! 👋👋 
 
-Welcome to my first website and my personal landing page! On this site, you can learn more about my past research, teaching and work experiences.
+Welcome to my first website and personal landing page! 
 
 <div style="text-align: justify">
 Presently, I am a student at the University of Cambridge, reading machine learning and machine intelligence! I have worn many hats, from software engineer to management consultant to biomedical research scientist. 
 </div>
 
-> Throughout my experiences, I have always been driven by the desire to solve **meaningful challenges** and effecting **positive impacts**.
+> In all my experiences, I found myself most productive (and intellectually stimulated) when solving **meaningful challenges** that can **positively impact others.** 
 
 <div style="text-align: justify">
-How I envision myself achieving that goal, currently, is through engineering biomedical devices that can help individuals with neurological disorders overcome their disabilities. In line with this goal, I am pursuing research opportunities in the fields of <u>machine learning</u>, <u>brain-machine interfaces</u>, <u>neural prostheses</u> as well as <u>neuromorphic computing</u> paradigms. 
+ How I envision myself achieving this goal, currently, is through by engineering biomedical devices that can help individuals with neurological disorders overcome their disabilities. In line with this goal, I am pursuing research opportunities in the fields of <u>machine learning</u>, <u>brain-machine interfaces</u>, <u>neural prostheses</u> as well as <u>neuromorphic computing</u> paradigms. 
 </div>
 <br/>
 <div style="text-align: justify">
@@ -27,7 +27,7 @@ For my undergraduate studies, I studied a double degree of B.Eng. Honours in Ele
 </div>
 <br/>
 <div style="text-align: justify">
-If you want to learn more about my work or to simply get to know each other, don't hesitate to reach out! ☕☕
+If you wish to learn more about my work or to simply get to know each other, don't hesitate to reach out (contact details on left-hand sidebar)! ☕☕
 </div>
 <br/>
 <p align="center">

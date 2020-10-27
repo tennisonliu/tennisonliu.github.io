@@ -9,7 +9,7 @@ permalink: /research/project-1
 
 ## At a Glance
 <div style="text-align: justify">
-First known, neuromorphic implementation of EEG sensor for purposes of long-term, ambulatory monitoring. Neuromorphic paradigm enables low power consumption and ultra-low bandwidth wireless transmission.
+First neuromorphic EEG sensor, designed for purposes of long-term, ambulatory seizure monitoring. The neuromorphic design enables low power consumption and ultra-low bandwidth wireless transmission.
 </div>
 
 ## Background & Problem Statement
@@ -20,7 +20,7 @@ First known, neuromorphic implementation of EEG sensor for purposes of long-term
 </p>
 
 <div style="text-align: justify">
-Some of the main challenges in ambulatory EEG monitoring systems are computation and power consumption. Most EEG headsets are designed to be used in clinical settings where everything has wired connection. However, ambulatory EEG systems are equally critical in many neurological studies, including epilepsy, stroke. In ambulatory/wearable/implanted systems, portability requirements demand lower power consumption and smaller design footprint.
+Some of the main challenges in ambulatory EEG monitoring systems are computation and power consumption. Most EEG headsets are designed to be used in clinical settings where everything has a wired connection. However, ambulatory EEG systems are  critical in many neurological studies, including epilepsy and stroke. In ambulatory/wearable/implanted systems, portability requirements demand lower power consumption and smaller design footprint.
 </div>
 <div style="text-align: justify">
 Conventional brain-machine interface focus on reproduction and transmission of recorded signal for additional off-chip analysis. Transmitting raw neural data wirelessly for processing increases power and bandwidth requirements. 
@@ -37,27 +37,27 @@ Conventional brain-machine interface focus on reproduction and transmission of r
 </p>
 
 <div style="text-align: justify">
-This study proposes a novel, implantable EEG sensing system. By leveraging neuromorphic principles and on-chip decoding, the proposed system has greatly reduced power and bandwidth requirements. <i>Fig 2.</i> depicts the entire system, the electrodes are placed below the scalp but above the skull bone. The electrodes  are interfaced with a neuromorphic spiking circuit, where the raw signals are converted to a spike train. The spike train is then classified by an on-chip spiking neural network (SNN), with the low-bandwidth outcome transmitted wirelessly. <i>Fig 3.</i> depicts the functional schematic of the on-sensor chip.
+This project proposes a novel, implantable EEG sensing system. By leveraging neuromorphic principles and on-chip decoding, the proposed system greatly reduces power and bandwidth requirements. <i>Fig 2.</i> depicts the entire system, the electrodes are placed below the scalp but above the skull bone. The electrodes are interfaced with a neuromorphic spiking circuit, where the raw signals are converted to a spike train. The spike train is then classified by an on-chip spiking neural network (SNN), with the low-bandwidth outcome transmitted wirelessly. <i>Fig 3.</i> depicts the functional schematic of the on-sensor chip.
 </div>
 <div style="text-align: justify">
-The spiking system bypasses the need for a power-intensive ADC and naturally interfaces with an on-chip SNN. The SNN decodes/classifies the spike train to classify epileptic state for continuous monitoring and only transmits the classification outcome across inductively coupled data links.
+The spiking system bypasses the need for a power-intensive ADC and naturally interfaces with an on-chip SNN. The SNN decodes the spike train to classify epileptic state for continuous monitoring and only transmits the classification outcome across inductively coupled data links.
 </div>
 
 ## System Architecture
 
 <p align="center">
   <img src="/images/neuromorphic-eeg-circuit-schematics.png" alt="Circuit-level Schematics"/>
-  <figcaption>Fig.4 - Circuit-level Schematics.</figcaption>
+  <figcaption>Fig.4 - Circuit-level Schematics (Proof-of-concept).</figcaption>
 </p>
 
 <div style="text-align: justify">
-This section will focus largely on the on-sensor chip. <i>Fig 4.</i> describes the circuit-level simulations for the spiking circuit. The sensed EEG signals are amplified by a low-noise amplifier circuit and then filtered by a cascade of two filters. The filtered signal is then passed into a spiking circuit. The spiking circuit passes the amplified signal through a first-order differentiator and then compares the derivative to a set threshold. If the derivative exceeds the threshold, a positive/negative spike is generated. 
+This section will focus largely on the on-sensor chip. <i>Fig 4.</i> describes the circuit-level simulations (proof-of-concept) for the spiking circuit. The sensed EEG signals are amplified by a low-noise amplifier circuit and then filtered by a cascade of two filters. The filtered signal is then passed into a spiking circuit. The spiking circuit passes the amplified signal through a first-order differentiator and compares the derivative to a set threshold. If the derivative exceeds the threshold, a positive/negative spike is generated. 
 </div>
 <div style="text-align: justify">
-Spike event generating circuit generates either positive or negative spike if input signal changes by a fixed positive or negative threshold - i.e. the spike rate corresponds to rate of change in input. <i>Fig 5.</i> highlights the PCB schematics of the circuit and <i>Fig 6.</i> and <i>Fig 7.</i> illustrates the signal fidelity and reconstruction tests performed on the spike train output.
+Specifically, spikes are generated if the rate of change in the input signal exceeds a positive or negative threshold - i.e. the spike rate corresponds to rate of change in input. <i>Fig 5.</i> highlights the PCB schematics of the test circuit and <i>Fig 6.</i> and <i>Fig 7.</i> illustrates the signal fidelity and reconstruction tests performed on the spike train output.
 </div>
 <div style="text-align: justify">
-The spike train is then decoded by on-chip SNN to predict/detect seizure onset.
+The spike train is then decoded by on-chip SNN to the detect/predict seizure onset.
 </div>
 <br>
 <p align="center">
