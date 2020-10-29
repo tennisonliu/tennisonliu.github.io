@@ -14,9 +14,11 @@ redirect_from:
   * Graduation: 2021 (expected)
 * **University of Sydney** B.Eng. Honours in Electrical Engineering & B.Com. in Business Analytics 
   * Graduation: 2019
+  * Results: 85+/100 Weighted Average Mark (WAM)
   * Advisor: NeuroSyd Group - A/Prof. Omid Kavehei, A/Prof. Luping Zhou, Dr. Nhan Duy Truong
 * **École Polytechnique Fédérale de Lausanne** Exchange Studies in Computer Science
   * Duration: August, 2017 - February, 2018
+  * Results: 5.5/6.0 Grade Point Average (GPA)
 
 ## Scholarships & Awards
 * University of Sydney Medal, *2019*
